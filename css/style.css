@@ -5,7 +5,7 @@
   }
   
   body {
-    background: red;
+    background: rgb(193, 224, 241);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,29 +14,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 110px;
+    padding: 0 50px;
   }
   main{
     flex: 1;
   }
 
 .glassmorph {
-background: rgba(225, 225, 225, 0.1);
-backdrop-filter: blur(12px);
-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  background: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
 
 .topo {
-padding: 0px;
+  padding: 0px;
 }
 
 
 .containerDoTopo {
-display: flex;
-justify-content: center;
-/*justify-content: flex-start;*/
-align-items: center;
-max-width: 1200px;
-padding: 0 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
 }
+
+.containerDoTopo ul{
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.facebook  i{color:#1877f2}
+.facebook  i:hover{filter: brightness(2)}
+
+.whatsapp  i{color: #25d366}
+.whatsapp  i:hover{filter: brightness(2)}
+
+.twitter   i{color: #1da1f2}
+.twitter   i:hover{filter: brightness(2)}
+
+.instagram i{color: #c32aa3}
+.instagram i:hover{filter: brightness(2)}
+
+.youtube   i{color: #ff0000}
+.youtube   i:hover{filter: brightness(2)}
+
+.linkedin  i{color: #0a66c2}
+.linkedin  i:hover{filter: brightness(2)}
+
