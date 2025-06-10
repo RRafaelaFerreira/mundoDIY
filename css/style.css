@@ -41,14 +41,7 @@
   width: 100%;
 }
 
-.containerDoTopo ul{
-  display: flex;
-  gap: 15px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
+/*redes sociais*/
 .facebook  i{color:#1877f2}
 .facebook  i:hover{filter: brightness(2)}
 
@@ -67,3 +60,75 @@
 .linkedin  i{color: #0a66c2}
 .linkedin  i:hover{filter: brightness(2)}
 
+.containerDoTopo ul{
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.estiloMenu{
+  background-color: #0059b3;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 160px;
+  z-index: 100;
+  padding: 8px 12px;
+}
+
+
+
+/*parte dos índices(menus)*/
+/*
+#nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#nav > li {
+  position: relative;
+}
+
+#nav li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(17, 0, 255);
+  padding: 8px 12px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0059b3;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 160px;
+  z-index: 100;
+  list-style: none;
+}
+
+.submenu li {
+  list-style: none;
+}
+
+.submenu li a {
+  padding: 10px;
+  white-space: nowrap;
+  color: white;
+  display: block;
+}
+
+.submenu li a:hover {
+  background-color: #003d7a;
+}
+
+.item-menu:hover > .submenu {
+  display: block;
+}
+*/
