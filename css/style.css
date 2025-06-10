@@ -5,13 +5,16 @@
   }
   
   body {
-    background: linear-gradient(135deg, #b0b1b1, #bff5fc);
+    background: red;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
   header{
-    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
   }
   main{
     flex: 1;
@@ -32,14 +35,8 @@ padding: 0px;
 .containerDoTopo {
 display: flex;
 justify-content: center;
+/*justify-content: flex-start;*/
 align-items: center;
 max-width: 1200px;
-padding: 0px 50px 30px 40px;
+padding: 0 0 10px 0;
 }
-
-/*
-.nomeDoSite{}
-
-footer, aside {
-color: white;
-}*/
