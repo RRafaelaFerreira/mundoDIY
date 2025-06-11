@@ -11,11 +11,16 @@
     min-height: 100vh;
   }
   header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 110px;
     padding: 0 50px;
+    z-index: 9999;
   }
   main{
     flex: 1;
@@ -60,6 +65,10 @@
 .linkedin  i{color: #0a66c2}
 .linkedin  i:hover{filter: brightness(2)}
 
+.facebook, .whatsapp, .twitter, .instagram, .youtube, .linkedin{
+  font-size: 20px;
+}
+
 .containerDoTopo ul{
   display: flex;
   gap: 15px;
@@ -70,65 +79,35 @@
 
 
 .estiloMenu{
-  background-color: #0059b3;
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   min-width: 160px;
-  z-index: 100;
+  z-index: 1;
   padding: 8px 12px;
 }
 
-
-
-/*parte dos índices(menus)*/
-/*
-#nav {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-#nav > li {
-  position: relative;
-}
-
-#nav li a {
-  display: block;
+.estiloMenu a{
   text-decoration: none;
-  color: rgb(17, 0, 255);
-  padding: 8px 12px;
+  font-weight: bold;
+  color: rgb(21, 47, 126);
+  display: block;
+}
+.estiloMenu a:hover{
+  filter: brightness(2);
 }
 
-.submenu {
+.item-hover{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hover-img{
   display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #0059b3;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  min-width: 160px;
-  z-index: 100;
-  list-style: none;
+  width: 50px;
+  height: auto;
 }
 
-.submenu li {
-  list-style: none;
+.item-hover:hover .hover-img{
+  display: inline-block;
 }
-
-.submenu li a {
-  padding: 10px;
-  white-space: nowrap;
-  color: white;
-  display: block;
-}
-
-.submenu li a:hover {
-  background-color: #003d7a;
-}
-
-.item-menu:hover > .submenu {
-  display: block;
-}
-*/
