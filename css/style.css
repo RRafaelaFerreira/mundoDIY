@@ -143,7 +143,10 @@
   font-weight: bold;
 }
 
+#SOBRE{
+  scroll-margin-top: 110px;
+}
 
-.rowAfastamento{
-  gap: 10px !important;
+.alturaForm{
+  transform: translateY(680px);
 }
